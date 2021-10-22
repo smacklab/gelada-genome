@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+    charset part1 = 1­1134;
+    charset part2 = 1135­1733;
+    charpartition mine = HKY+G:part1, TPM2u+I+G:part2;
+end;
